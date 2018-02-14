@@ -1,0 +1,7 @@
+Name: cmp
+Flag: CSSOC{Backtr4c3d_17}
+Points: 100
+Hint: Is there a way to check calls to imported functions?
+Hint_Penalty: 30
+
+Attachments: cmp
