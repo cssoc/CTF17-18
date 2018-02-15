@@ -1,0 +1,8 @@
+Name: PERIOD
+Flag: CSSOC{y0u_keep_r3p3471n6_y0u12537F}
+Points: 200
+Hint: How many different outputs can a LSFR produce?
+Hint_Penalty: 75
+
+Attachments: period.tgz
+Links: TODO
