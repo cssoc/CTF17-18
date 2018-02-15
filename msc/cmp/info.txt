@@ -2,6 +2,7 @@ Name: cmp
 Flag: CSSOC{Backtr4c3d_17}
 Points: 100
 Hint: Is there a way to check calls to imported functions?
+Desc: Can you recover the string that is accepted by this binary?
 Hint_Penalty: 30
 
 Attachments: cmp
