@@ -1,0 +1,9 @@
+Name: TELLME
+Flag: CSSOC{WR1TING_S4377C0D3}
+Points: 100
+Hint: /
+Desc: JUST TELL ME WHAT TO DO
+Hint_Penalty: /
+
+Attachments: TELLME
+Link: /
