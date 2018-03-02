@@ -1,0 +1,7 @@
+Name: School assignment
+Flag: luke i am your father.
+Encrypted text: yhxr v nz lbhe sngure
+Points: 50(? I don't know what to put here)
+Hint: Think about salad
+Hint_penalty: 15(?)
+Desc: Your teacher gave you a ciphered text. Decipher it to gain extra points.
