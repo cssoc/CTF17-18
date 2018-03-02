@@ -1,6 +1,6 @@
 Name: School assignment
-Flag: luke i am your father.
-Encrypted text: yhxr v nz lbhe sngure
+Flag: LUKE I AM YOUR FATHER
+Encrypted text: YHXR V NZ LBHE SNGURE
 Points: 50(? I don't know what to put here)
 Hint: Think about salad
 Hint_penalty: 15(?)
