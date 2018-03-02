@@ -2,7 +2,7 @@
 #include<cstring>
 using namespace std;
 int len;
-char flag[1010]={'l','u','k','e',' ','i',' ','a','m',' ','y','o','u','r',' ','f','a','t','h','e','r'};
+char flag[1010]={'L','U','K','E',' ','I',' ','A','M',' ','Y','O','U','R',' ','F','A','T','H','E','R'};
 char encrypted[1010];
 int main(){
     //ROT13 is a simple substitution cypher, a special case of the Caesar
@@ -13,10 +13,10 @@ int main(){
     len = strlen(flag);
     for(int i=0;i<len;i++){
         if(flag[i] != ' '){
-            int pos = flag[i] - 'a' + 13;
+            int pos = flag[i] - 'A' + 13;
             if(pos >= 26)
                 pos -= 26;
-            encrypted[i] = pos + 'a';
+            encrypted[i] = pos + 'A';
         }
         else
             encrypted[i] = ' ';
