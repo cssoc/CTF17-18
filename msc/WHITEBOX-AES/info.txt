@@ -1,0 +1,10 @@
+Name: WHITEBOX-AES
+Flag: CSSOC{just_dump_the_roundkeys_72cdc4}
+Points: 700
+Hint: You might want to take a look at some AES implementations to see what
+you should be expecting.
+Hint_Penalty: 300
+Desc: The flag was encrypted with AES128 using ECB. You also have access to
+the encryption program. Can you decrypt the flag?
+
+Attachments: flag.enc, encrypt

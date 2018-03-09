@@ -1,0 +1,9 @@
+Name: smooth
+Flag = CSSOC{d01n6_NuM8312_ThE0rY_l!k3_A_PRO}
+Points: 800
+Hint: Take a closer look at the modulus. What could smooth refer to?
+Hint_Penalty: 300
+Desc: You got a public ElGamal key and some ciphertext. The person
+implementing the algorithm made some mistakes.
+
+Attachments: key.json, msg.json
