@@ -5,5 +5,4 @@ Hint: HTTP BASIC
 Desc: Can you recover the password someone sent over the network from this net capture?
 Hint_Penalty: 30
 
-Attachments: 
-flag.pcapng
+Attachments: flag.pcapng
