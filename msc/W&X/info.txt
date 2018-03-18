@@ -1,0 +1,9 @@
+Name: w&x
+Flag: CSSOC{Who_needs_DEP_anyways?}
+Points: 800
+Hint: Using the debugger to step through the program as you pass it different
+inputs might make it easier.
+Hint_Penalty: 200
+Desc: This program accepts the flag as input. Can you reverse engineer it?
+
+Attachments: w&x
