@@ -1,0 +1,9 @@
+Name: RECOVERPASSWORDHASH
+Flag: CSSOC{Flag}
+Points: 100
+Hint: Hash is de64021d113c49a435561361f0a1c69e and password is of format 'CSSOC{X}' where X is made up of 4 ASCII characters.
+Desc: Recover the password from the hash
+Hint_Penalty: /
+
+Attachments: /
+Link: /
