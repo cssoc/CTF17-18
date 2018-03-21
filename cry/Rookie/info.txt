@@ -1,0 +1,10 @@
+Name: Rookie
+Flag = CSSOC{50m37h1n6_r34lly_b0r1n6}
+Points: 100
+Hint: Could a Transformer help you out?
+Hint_Penalty: 20
+Desc: A rookie tried implementing an RSA system, but he made a typical
+rookie mistake. Figure that mistake out. You are given the public key 
+and the ciphertext.
+
+Attachments: cipher.txt, key.pem
