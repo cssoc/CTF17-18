@@ -1,0 +1,6 @@
+Name: Proxy
+Flag: CSSOC{MAKE_SSRF_GREAT_AGAIN}
+Points: 500
+Desc: Can you manage to log in as admin?
+Hint: Does the filtering actually do what it is supposed to do?
+Hint_Penalty: 150
