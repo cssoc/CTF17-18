@@ -1,6 +1,7 @@
 Name: Proxy
 Flag: CSSOC{MAKE_SSRF_GREAT_AGAIN}
 Points: 500
-Desc: Can you manage to log in as admin?
+Desc: Can you manage to log in as admin? NOTE: If the flag appears to be
+invalid, try using your exploit again after 30 seconds.
 Hint: Does the filtering actually do what it is supposed to do?
 Hint_Penalty: 150
