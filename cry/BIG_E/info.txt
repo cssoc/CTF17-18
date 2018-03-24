@@ -1,0 +1,7 @@
+Name: BIG_E
+Flag: CSSOC{W13N3r1N6_CrYP706r4PHY}
+Points: 600
+Hint: /
+Desc: Can you break RSA?
+
+Attachments: flag.enc, key.pem
