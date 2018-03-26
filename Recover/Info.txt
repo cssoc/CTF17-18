@@ -1,8 +1,8 @@
 Name: RECOVERPASSWORDHASH
-Flag: CSSOC{congue}
+Flag: CSSOC{Congue}
 Points: 100
 Hint: /
-Desc: Recover the flag from the hash. Hash is 387cfa57545d4814246bbcebe6bc61dc and flag is of format 'CSSOC{X}' where X is made up of 6 ASCII characters.
+Desc: Recover the flag from the hash. Hash is 7db3d95b8dc3fcf940784e64dc12f801 and flag is of format 'CSSOC{X}' where X is made up of 6 ASCII characters.
 Hint_Penalty: /
 
 Attachments: /
