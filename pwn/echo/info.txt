@@ -1,0 +1,10 @@
+Name: echo
+Flag: CSSOC{ret2libc_via_plt}
+Points: 800
+Hint: Maybe there is an interesting address in libc that you could return to?
+Desc: There are no important variables or functions so you clearly can't
+exploit this program, right?
+Hint_Penalty: 200
+
+Attachments: echo, libc.so.6
+Link: /
