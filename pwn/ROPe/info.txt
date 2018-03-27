@@ -1,0 +1,9 @@
+Name: ROPe
+Flag: CSSOC{r0P1N6_Y0Ur_W4Y_0U774_H3r3}
+Points: 300
+Hint: What happens when you exit a function?
+Desc: Who needs stack canaries anyways?
+Hint_Penalty: 75
+
+Attachments: ROPe
+Link: /
