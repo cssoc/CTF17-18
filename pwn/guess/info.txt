@@ -1,0 +1,9 @@
+Name: guess
+Flag: CSSOC{PHl49_REcURS10n}
+Points: 150
+Hint: Is using printf like that a good idea?
+Desc: GIBE FLAG
+Hint_Penalty: 30
+
+Attachments: guess
+Link: /
