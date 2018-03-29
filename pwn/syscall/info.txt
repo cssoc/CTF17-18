@@ -1,0 +1,9 @@
+Name: syscall
+Flag: CSSOC{5r0P_70_Y0Ur_5hEll}
+Points: 300
+Hint: Are there systemcalls that could be useful?
+Desc: ECHO SERVICE is back, this time in ASM with no external libraries.
+Hint_Penalty: 75
+
+Attachments: syscall
+Link: /
