@@ -1,0 +1,9 @@
+Name: 414141
+Flag: CSSOC{AAAAAAAAAAAAAAAAAAAAing_your_buffer}
+Points: 150
+Hint: /
+Desc: OH GREAT ANOTHER ECHO SERVER, WE NEED MORE OF THOSE
+Hint_Penalty: /
+
+Attachments: 414141
+Link: /
