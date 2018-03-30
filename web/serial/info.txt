@@ -1,0 +1,7 @@
+Name: serial
+Flag: CSSOC{UNp1CKL1nG_7h3_fL4G}
+Points: 400
+Desc: Can you read flag.txt located in the root dir? The server is running
+Python 2.
+Hint: Have a look at the cookie. It doesn't appear to be just a string.
+Hint_Penalty: 100
