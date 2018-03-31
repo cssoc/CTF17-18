@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Online Notepad</title>
+<style>
+
+div{
+-moz-border-radius:10px;  /* for Firefox */
+-webkit-border-radius:10px; /* for Webkit-Browsers */
+border-radius:10px; /* regular */
+background-color: whitesmoke;
+margin: auto;
+width: 75%;
+	padding-top: 0.25cm;
+	padding-left: 0.5cm;
+	padding-bottom: 0.5cm;
+}
+
+body{
+	padding-top: 2cm;
+background-color: gray;
+background-size: cover;
+}
+
+textarea{
+	width: 90%;
+	height: 10cm;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+</style>
+
+	</head>
+	<body>
+	<div>
+	<h1>Notepad</h1>
+
+	<form action="/" method="post">
+		<textarea name="data">{{ data }}</textarea>
+		<br />
+		<input type="submit" value="Save">
+	</form>
+
+	<p>Please note that cookies have to be enabled in order to store your text.</p>
+	</div>
+	</body>
+</html>
