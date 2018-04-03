@@ -1,0 +1,6 @@
+Name: cross
+Flag: CSSOC{90d_1_h473_W38D3V3L0pM3n7_4nd_PhP}
+Points: 350
+Desc: Can you manage to log in as admin and find the flag?
+Hint: /
+Hint_Penalty: /
