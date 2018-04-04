@@ -1,0 +1,9 @@
+Name: not-quite-steg
+Flag: CSSOC{iT_aLway5_3nD5_iN_fAIlUr3}
+Points: 100
+Hint: If there was a file hidden within that image. Where would it be likely
+hidden? How could you detect what kind of file it is?
+Desc: There's a flag hidden in this image.
+Hint_Penalty: 25
+
+Attachments: not-quite-steg.jpg
