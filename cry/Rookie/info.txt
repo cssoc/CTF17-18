@@ -7,4 +7,4 @@ Desc: A rookie tried implementing an RSA system, but he made a typical
 rookie mistake. Figure that mistake out. You are given the public key 
 and the ciphertext.
 
-Attachments: cipher.txt, key.pem
+Attachments: flag.enc, key.pem
