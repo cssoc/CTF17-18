@@ -1,0 +1,6 @@
+Name: ajax
+Flag: CSSOC{Ju57_W4LK_in_4nd_74K3_I7_8R0}
+Points: 150
+Desc: Can you read "admin"s messages in order to obtain the flag?
+Hint: /
+Hint_Penalty: /
