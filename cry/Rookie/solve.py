@@ -25,11 +25,11 @@ if a < 0:
     a += n
 d = a
 
-print(str(d))
+#print(str(d))
 
-key = RSA.construct((n,e,d))
+key = RSA.construct((n,e,d, n, 1))
 
+with open('flag.enc', 'rb') as f:
+    data = f.read()
 
-out = open('key1.pem', 'wb')
-out.write( key.exportKey('PEM') )
-out.close
+print(key.decrypt(data))
