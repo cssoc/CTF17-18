@@ -1,0 +1,6 @@
+Name: blind
+Flag: CSSOC{=jktvtS^6q}
+Points: 100
+Desc: Find the password of the account named admin.
+Hint: /
+Hint_Penalty: /

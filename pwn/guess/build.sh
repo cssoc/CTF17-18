@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc guess.c -o guess
+#gcc guess.c -o guess
 docker build -t=guess .

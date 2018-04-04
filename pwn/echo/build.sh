@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc echo.c -o echo -no-pie
+#gcc echo.c -o echo -no-pie
 docker build -t=echo .
 docker run --rm --entrypoint cat echo /lib/x86_64-linux-gnu/libc.so.6 > libc.so.6
 if md5sum -c md5_check;
