@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Chat Service</title>
+<style>
+
+div{
+-moz-border-radius:10px;  /* for Firefox */
+-webkit-border-radius:10px; /* for Webkit-Browsers */
+border-radius:10px; /* regular */
+background-color: whitesmoke;
+margin: auto;
+width: 75%;
+	padding-top: 0.25cm;
+	padding-left: 0.5cm;
+	padding-bottom: 0.5cm;
+}
+
+body{
+	padding-top: 2cm;
+background-color: gray;
+background-size: cover;
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>
+$(function() {
+count = 0;
+usr = "User" + Math.floor(Math.random() *1000);
+$('#user').text(usr);
+
+setInterval(function(){
+$.getJSON('/api/check', {recp: usr}, function(data){
+if(data.length > count){
+new_data = data.slice(count);
+count = data.length;
+for(var i = 0; i < new_data.length; i++){
+	$.getJSON('/api/get', {id : new_data[i]}, function(data){
+		$('#messages').append(data[1] + ": " + data[2] + "<br>");
+	});
+}
+}
+})
+}, 5000);
+
+});
+
+
+function sendMsg(){
+message = $('#msg').val();
+recipient = $('#recp').val();
+$.get("/api/send", {recp: $('#recp').val(), sndr: usr, msg: $('#msg').val()});
+$('#messages').append("YOU > " + recipient +  ": " + $('#msg').val() + "<br>");
+}
+
+</script>
+	</head>
+	<body>
+	<div>
+	<h1>Chat</h1>
+		<p>Hello <span id="user"></span>!</p>
+		Send message to: <input type="test" id="recp"> <br>
+		Message: <input id="msg"><br><br>
+		<button onclick="sendMsg()" type="button">Send</button>
+
+	<div id="messages"></div>
+
+	<p>Please note that JavaScript needs to be enabled.</p>
+	</div>
+	</body>
+</html>
