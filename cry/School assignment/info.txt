@@ -1,7 +1,7 @@
 Name: School assignment
-Flag: LUKE I AM YOUR FATHER
-Encrypted text: YHXR V NZ LBHE SNGURE
-Points: 50(? I don't know what to put here)
+Encrypted text: PFFBP{YHXR_V_NZ_LBHE_SNGURE}
+Flag: CSSOC{LUKE_I_AM_YOUR_FATHER}
+Points: 50
 Hint: Think about salad
-Hint_penalty: 15(?)
+Hint_penalty: 15
 Desc: Your teacher gave you a ciphered text. Decipher it to gain extra points.
