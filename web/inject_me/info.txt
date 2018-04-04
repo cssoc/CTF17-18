@@ -1,0 +1,6 @@
+Name: inject_me
+Flag: CSSOC{S4nI7iS3_Y0UR_InPU72}
+Points: 100
+Desc: Can you manage to log in as admin?
+Hint: /
+Hint_Penalty: /
