@@ -53,7 +53,7 @@ function filter_url($url)
 
 	curl_close($curl);
 	?>
-	<img src="data:image/<?php substr($_GET['url'], -3)?>;base64,<?php
+	<img src="data:image/<?php echo substr($_GET['url'], -3)?>;base64,<?php
 	echo $result; ?>
 	" />
 	<?php
