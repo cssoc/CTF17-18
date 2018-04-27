@@ -45,7 +45,7 @@ ROT13
 
 #### smooth
 
-Factorise modulus (which is smooth) with pollards p-1, then use pohlig-hellman to recover message.
+Factorise modulus (whoose factors are smooth) with pollards p-1, then use pohlig-hellman to recover the message.
 
 ### Pwn
 
